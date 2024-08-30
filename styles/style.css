@@ -39,6 +39,12 @@ a {
 }
 a:hover { background-color:  #74dbd8; color: indigo; }
 
+.title{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
 /*******************************************************************************
 Home
 *******************************************************************************/
@@ -160,18 +166,6 @@ button:hover{ background-color:  #74dbd8; color: indigo; }
 /*******************************************************************************
 Story
 *******************************************************************************/
-.storymain{
-text-align: center;
-  
-}
-
-.title{
-
-  display: flex;
-justify-content: center;
-  gap: 8px;
-
-}
 
 .storyimg{
    margin: 20px;
@@ -196,22 +190,21 @@ justify-content: center;
 /*******************************************************************************
 Characters
 *******************************************************************************/
-.charactersmain{
-  display: grid;
-  grid-template-columns: 1fr 3fr;
+
+.characterBox {
+  margin: 30px;
+  display: flex;
   align-items: center;
-  justify-items: right;
-  padding: 2% 10%;
-  gap: 50px;
+  gap: 20px;
 }
 
-.sejop, .kashp, .vitop, .mizop, .catyp {
-  border: 5px solid indigo;
-  box-shadow: 5px 5px 10px black
-}
+.characterBox img{
+  border: 10px solid indigo;
+  border-radius: 40%;
 
-.bolded { font-weight: bold; font-size: 1.3em; }
-.bold { font-weight: bold; font-size: 1.1em; }
+  width: 200px;
+  height: 200px;
+}
 
 
 /*******************************************************************************
